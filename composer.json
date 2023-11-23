@@ -1,6 +1,6 @@
 {
     "name": "hopekelldev/tatum-laravel",
-    "description": "A laravel package for Tatum.io API integration",
+    "description": "A Laravel 10 package for Tatum.io API integration",
     "type": "library",
     "require": {
         "php": "^7.2|^8.0|^8.3",
