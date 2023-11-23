@@ -1,0 +1,32 @@
+{
+    "name": "hopekelldev/tatum-laravel",
+    "description": "A laravel package for Tatum.io API integration",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "10.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HopekellDev\\Tatum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ezenwa Hopekell",
+            "email": "hopekelltech@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HopekellDev\\Tatum\\TatumServiceProvider"
+            ],
+            "aliases": {
+                "Tatum": "HopekellDev\\Tatum\\Facades\\Tatum"
+            }
+        }
+    }
+}
