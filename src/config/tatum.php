@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'api_key' => env('TATUM_API_KEY', ''),
-    // Add other configuration options as needed
+    'apiKey' => env('TATUM_API_KEY', ''),
+    'accountID' => env('TATUM_ACCOUNT_ID', ''),
 ];
